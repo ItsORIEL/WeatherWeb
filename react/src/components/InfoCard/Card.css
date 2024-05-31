@@ -1,0 +1,55 @@
+.card {
+  width: 365px;
+  height: 250px;
+  margin: 2% 9% 2% 9%;
+  border-radius: 4px 0px 0px 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px 2px 15px;
+}
+
+.place-title {
+  font-family: Heebo;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44.06px;
+  text-align: left;
+}
+
+.short-info {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  margin-right: 15px;
+  text-align: right;
+  color: #8f8f8f;
+}
+
+.card-info {
+  margin: 30px 40px 15px 40px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.card-data {
+  margin: 15px 40px 15px 40px;
+  font-family: Heebo;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44.06px;
+  text-align: left;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
